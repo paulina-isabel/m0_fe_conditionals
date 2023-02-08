@@ -65,6 +65,18 @@ if (numQuarters < 2) {
 // Experiment with manipulating the value held within both variables
 // to make sure all above conditions output what you expect.
 
-var cupsOfFlour = 1;
+var cupsOfFlour = 3;
 var hasSauce = true;
 
+if (cupsOfFlour === 1 && hasSauce === true) {
+  console.log ("I cannot make pizza");
+} 
+else if (cupsOfFlour === 5 && hasSauce === false) {
+  console.log ("I cannot make pizza");
+}
+else if (cupsOfFlour === 2 && hasSauce === true) {
+  console.log ("I can make pizza");
+}
+else if (cupsOfFlour === 3 && hasSauce === true) {
+  console.log ("I can make pizza");
+}
