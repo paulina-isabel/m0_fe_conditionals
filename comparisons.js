@@ -60,20 +60,34 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21)
 
 console.log(4 < 9);
 // YOU DO: Explain.
+// Here we are comparing two values: 4 and 9
+// we are using console.log to retrieve an evaluation of either true or false to what is inside the parethesis;
+// we are asking if four is less than nine, since four is less than nine we will get a "true" evaluation
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
+// Here we are creating a variable with an assignment operator called books with the value 3
+// we are then using console.log to retrieve an evaluation as to wether 4 is less than books
+// because books is assigned to the value 3, we will get "false" evaluation since 4 is greater than 3
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+// Here we are declaring two variables: one with assignment operator called friends and another called siblings
+// we are assigning friends to the value 6 and siblings to 2 
+// we are then using console.log to ask for an evaluation - is friends more than siblings
+// we will get a result of true because 6 is more than 2
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
+// Here we are declaring two variables: one with assignment operator called atendees and another called meals
+// we are assigning attendees to the value 9 and meals to 8 
+// we are then using console.log to ask for an evaluation - is attendees not strictly equal to meals
+// we will get a result of false because 9 and 8 are not strictly equal
 
 
 // #-------------------
